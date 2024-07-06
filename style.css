@@ -1,0 +1,172 @@
+@charset "UTF-8"
+
+* {
+    margin: auto;
+}
+
+body {
+    background: linear-gradient(to left, #73321E, #590202, #F27813, #AE2802, #421D15);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+table {
+    border: 2px solid black;
+    background-color: white;
+    text-align: left;
+    margin: auto;
+    padding: 10px;
+    width: 500px;
+    border-radius: 20px;
+    animation-name: tabela;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-duration: 3s;
+}
+
+@keyframes  tabela {
+        to {
+            margin-left: 0%;
+        }
+
+        from {
+            margin-left: 100%;
+        }
+}
+
+td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+h1 {
+    font-family: "churras";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    text-align: center;
+    color: #260101;
+    background-color: #f2d64b59;
+    border-radius: 25px;
+    animation-name: titulo;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-duration: 3s;
+}
+
+@keyframes  titulo {
+    to {
+        margin-left: 0%;
+    }
+
+    from {
+        margin-left: 100%;
+    }
+}
+
+h2 {
+    font-family: "churras";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    text-align: center;
+    color: #260101;
+    background-color: #f2d64b59;
+    border-radius: 25px;
+    animation-name: titulo2;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-duration: 3s;
+}
+
+@keyframes  titulo2 {
+    to {
+        margin-left: 0%;
+    }
+
+    from {
+        margin-left: 100%;
+    }
+}
+
+input {
+    border-radius: 5px;
+    background-color:#e69451;
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+label {
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+button {
+   margin-top: 20px;
+   background-color: #F27813;
+   width: 100px;
+   margin-left: 150px;
+   margin-right: 150px;
+}
+
+form {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    animation-name: formulario;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-duration: 3s;
+    width: 400px;
+    margin: auto;
+}
+@keyframes formulario {
+    to {
+        margin-left: 0%;
+    }
+
+    from {
+        margin-left: 100%;
+    }
+}
+
+ul {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    animation-name: ordem;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-duration: 3s;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+@keyframes ordem {
+    to {
+        margin-left: 0%;
+    }
+
+    from {
+        margin-left: 100%;
+    }
+}
+
+img {
+    margin-right: 72px;
+    margin-left: 72px;
+}
+
+textarea#resultado {
+    border: 3px solid black;
+    background-color: antiquewhite;
+    width: 380px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}

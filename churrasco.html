@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrasco</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Meat.ico" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family: "churras";
+            src: url(DK\ Longreach.otf) format(opentype);
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Adicione o jQuery aqui -->
+    <script src="pag.js"></script>
+</head>
+<body>
+    <header>
+        <h1>CALCULADORA PARA CHURRASCO:</h1>
+    </header>
+    <main>
+        <h2>Dados de consumo:</h2>
+        <img src="Drink-Beer.png" alt="Cerveja">
+        <img src="Meat-Sausages.png" alt="Linguiça">
+        <img src="Meat.png" alt="Carne">
+        <img src="Drink-Coke.png" alt="Refrigerante">
+        <img src="Meat-Skewer.png" alt="Frango">
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">HOMENS</th>
+                    <th scope="col">MULHERES</th>
+                    <th scope="col">CRIANÇAS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">CARNE BOVINA</th>
+                    <td>500g</td>
+                    <td>300g</td>
+                    <td>200g</td>
+                </tr>
+                <tr>
+                    <th scope="row">FRANGO</th>
+                    <td>200g</td>
+                    <td>200g</td>
+                    <td>100g</td>
+                </tr>
+                <tr>
+                    <th scope="row">LINGUIÇA</th>
+                    <td>200g</td>
+                    <td>200g</td>
+                    <td>200g</td>
+                </tr>
+                <tr>
+                    <th scope="row">REFRIGERANTE</th>
+                    <td>300ml</td>
+                    <td>400ml</td>
+                    <td>200ml</td>
+                </tr>
+                <tr>
+                    <th scope="row">CERVEJA</th>
+                    <td>800ml</td>
+                    <td>500ml</td>
+                    <td>0ml</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <section>
+        <h2>Calculadora:</h2>
+        <form>
+            <label for="Homens" class="homem">QUANTIDADE DE HOMENS:</label>
+            <input type="number" name="Homens" id="Homens">
+            <br>
+            <label for="Mulheres" class="mulher">QUANTIDADE DE MULHERES:</label>
+            <input type="number" name="Mulheres" id="Mulheres">
+            <br>
+            <label for="Crianças" class="criança">QUANTIDADE DE CRIANÇAS:</label>
+            <input type="number" name="Crianças" id="Crianças">
+            <br>
+            <button id="calcularBtn" class="button" type="submit">Calcular</button> 
+            <br>
+            <textarea id="resultado" readonly></textarea>
+        </form>
+    </section>
+</body>
+</html>
